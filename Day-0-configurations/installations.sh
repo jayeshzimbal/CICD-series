@@ -1,3 +1,8 @@
+#!/bin/bash
+
+set -x
+set -e
+set -o pipefail
 # ---------- Java dependency for Jenkins ----------
 sudo dnf install java-21-amazon-corretto -y
 
